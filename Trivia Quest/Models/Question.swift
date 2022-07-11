@@ -5,13 +5,19 @@
 //  Created by Matthew Thompson on 21/06/2022.
 //
 
+//*************************************************************
+//*       Question Model File ~ Setup questions for game      *
+//*************************************************************
+
 import Foundation
 
 struct Question: Hashable {
+    // Attributes of each question
     let questionText: String
     let possibleAnswers: [String]
     let correctAnswerIndex: Int
     
+    // Store an array of questions
     static var allQuestions = [
             Question(questionText: "Which mammal is known to have the most powerful bite in the world?",
                      possibleAnswers: [
