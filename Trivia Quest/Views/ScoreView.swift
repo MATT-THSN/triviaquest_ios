@@ -6,7 +6,7 @@
 //
 
 //****************************************************************************
-//*       ScoreView File ~ Determine how the final score page will look      *
+//*             ScoreView File ~ How the final score page will look          *
 //****************************************************************************
 
 import SwiftUI
